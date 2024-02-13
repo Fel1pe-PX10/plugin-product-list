@@ -1,0 +1,146 @@
+body {
+    font-family: Times,serif;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.product-box {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: height 0.3s;
+    margin-bottom: 20px;
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 33%;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.title-description {
+    width: 70%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.title-description h2 {
+    font-size: 25px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.title-description p {
+    font-size: 15px;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+.rating {
+    width: 15%;
+    text-align: left;
+}
+
+.separator {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.bottom-section {
+    display: grid;
+    grid-template-rows: 15% 7% auto;
+}
+
+.visit-site {
+    text-align: right;
+}
+
+.visit-site a {
+    padding: 7px 7px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration-line: none;
+}
+
+.see-more {
+    background-color: #f0f0f0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 29px;
+    height: 25px;
+    position:relative;
+    border-radius: 2px;
+}
+
+.additional-info,
+.product-image {
+    display: flex;
+    align-items: center;
+}
+
+.additional-info {
+    width: 50%;
+    padding: 10px;
+}
+
+.product-image {
+    width: 50%;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.column-section {
+    display: flex;
+    align-items: center;
+}
+
+.additional-info-bottom,
+.product-image-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.additional-info-bottom {
+    width: 70%;
+    padding: 10px;
+}
+
+.product-image-bottom{
+    width: 30%;
+}
+.product-image-bottom img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rating p {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.additional-info-bottom{
+    display: flex;
+    flex-direction: column;
+}
